@@ -1,14 +1,14 @@
 programa {
   funcao inicio() {
-  // Descrição de variáveis.
+  // DescriÃ§Ã£o de variÃ¡veis.
   inteiro primeiroNumero, segundoNumero, soma,  produto, maiorValor, menorValor
    real media 
    
-  // Solicitação de dados.
-  escreva("Digite o valor do primeiro número: ")
+  // SolicitaÃ§Ã£o de dados.
+  escreva("Digite o valor do primeiro nÃºmero: ")
   leia(primeiroNumero)
 
-  escreva("Digite o valor do segundo número: ")
+  escreva("Digite o valor do segundo nÃºmero: ")
   leia(segundoNumero)
 
   // Calcular 
@@ -24,11 +24,11 @@ programa {
     menorValor = primeiroNumero}
 
 
-   //
+   //EXIBINDO RESULTADO
    limpa()
    escreva("\nSoma: ", soma )
    escreva("\nProduto: ", produto)
-   escreva("\nMédia: ", media)
+   escreva("\nMÃ©dia: ", media)
    escreva("\nMaior valor: ", maiorValor)
    escreva("\nMenor valor: ", menorValor)
    }
